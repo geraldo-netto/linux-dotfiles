@@ -1,0 +1,5 @@
+# path: ???
+
+sudo systemd-analyse
+sudo systemd-analyse blame
+sudo systemctl disable NetworkManager-wait-online.service
