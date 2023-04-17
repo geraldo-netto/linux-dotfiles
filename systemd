@@ -2,4 +2,5 @@
 
 sudo systemd-analyse
 sudo systemd-analyse blame
+sudo systemd-analyze critical-chain
 sudo systemctl disable NetworkManager-wait-online.service
