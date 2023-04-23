@@ -1,3 +1,4 @@
 # path: /etc/udev/rules.d/99-arduino.rules
 
+# sudo usermod -a -G dialout <username>
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="2341", GROUP="plugdev", MODE="0666"
