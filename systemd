@@ -4,3 +4,4 @@ sudo systemd-analyze
 sudo systemd-analyze blame
 sudo systemd-analyze critical-chain
 sudo systemctl disable NetworkManager-wait-online.service
+sudo systemctl disable brltty-udev.service
