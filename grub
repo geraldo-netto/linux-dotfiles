@@ -1,3 +1,4 @@
 # path: /etc/default/grub
+# sudo update-grub
 
 GRUB_CMDLINE_LINUX_DEFAULT="mitigations=off zswap.enabled=1 zswap.zpool=z3fold zswap.compressor=lz4 nosgx intel_idle_max_cstate=3 nr_cpus=32"
