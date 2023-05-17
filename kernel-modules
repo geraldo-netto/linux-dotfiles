@@ -1,0 +1,6 @@
+# path: /etc/modules
+
+coretemp
+i2c_dev
+it87
+
