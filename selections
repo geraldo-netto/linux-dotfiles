@@ -1,5 +1,6 @@
 # path: ???
 # sudo dpkg --set-selections
+# sudo apt-get remove --auto-remove brltty
 
 0ad						install
 0ad-data					install
