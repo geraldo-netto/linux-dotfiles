@@ -2771,6 +2771,7 @@ shim-signed					install
 signon-plugin-oauth2				install
 simple-scan					install
 slick-greeter					install
+smartmontools					install
 smbclient					install
 smbios-utils					install
 sonnet-plugins:amd64				install
