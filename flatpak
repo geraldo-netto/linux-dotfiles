@@ -8,6 +8,16 @@ flatpak install flathub com.valvesoftware.Steam
 # to install flatseal (allows to add external filesystems to flatpak
 flatpak install flathub com.github.tchx84.Flatseal
 
+# use flatseal to add the following permissions to steam
+# pulse audio
+# d-bus
+# gpu acceleration
+# virtualization (probably not needed)
+# shared memory
+# all devices
+# file systems (add the mounting point)
+
+
 # on bashrc
 alias steam='flatpak run com.valvesoftware.Steam'
 alias flatseal='flatpak run --branch=stable --arch=x86_64 --command=com.github.tchx84.Flatseal com.github.tchx84.Flatseal'
