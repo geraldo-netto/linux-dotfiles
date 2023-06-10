@@ -1,0 +1,13 @@
+# install flatpak
+#ii  flatpak                                           1.12.7-1                                   amd64        Application deployment framework for desktop apps
+#ii  xdg-desktop-portal                                1.14.4-1ubuntu2~22.04.1                    amd64        desktop integration portal for Flatpak and Snap
+
+# to install steam
+flatpak install flathub com.valvesoftware.Steam
+
+# to install flatseal (allows to add external filesystems to flatpak
+flatpak install flathub com.github.tchx84.Flatseal
+
+# on bashrc
+alias steam='flatpak run com.valvesoftware.Steam'
+alias flatseal='flatpak run --branch=stable --arch=x86_64 --command=com.github.tchx84.Flatseal com.github.tchx84.Flatseal'
