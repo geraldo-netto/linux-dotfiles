@@ -11,8 +11,6 @@ flatpak install flathub com.github.tchx84.Flatseal
 # use flatseal to add the following permissions to steam
 # pulse audio
 # d-bus
-# gpu acceleration
-# virtualization (probably not needed)
 # shared memory
 # all devices
 # file systems (add the mounting point)
