@@ -1,0 +1,46 @@
+$ powercap-info -p intel-rapl
+enabled: 1
+Zone 0
+  name: package-0
+  enabled: 1
+  max_energy_range_uj: 65532610987
+  Constraint 0
+    name: long_term
+    power_limit_uw: 130000000
+    time_window_us: 9994240
+    max_power_uw: 130000000
+  Constraint 1
+    name: short_term
+    power_limit_uw: 156000000
+    time_window_us: 7808
+    max_power_uw: 200000000
+  Zone 0:0
+    name: core
+    enabled: 0
+    max_energy_range_uj: 65532610987
+    Constraint 0
+      name: long_term
+      power_limit_uw: 0
+      time_window_us: 976
+Zone 1
+  name: package-1
+  enabled: 1
+  max_energy_range_uj: 65532610987
+  Constraint 0
+    name: long_term
+    power_limit_uw: 130000000
+    time_window_us: 9994240
+    max_power_uw: 130000000
+  Constraint 1
+    name: short_term
+    power_limit_uw: 156000000
+    time_window_us: 7808
+    max_power_uw: 200000000
+  Zone 1:0
+    name: core
+    enabled: 0
+    max_energy_range_uj: 65532610987
+    Constraint 0
+      name: long_term
+      power_limit_uw: 0
+      time_window_us: 976
