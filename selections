@@ -2541,6 +2541,7 @@ polkitd						install
 poppler-data					install
 poppler-utils					install
 powermgmt-base					install
+powercap-utils					install
 ppp						install
 pppconfig					install
 pppoeconf					install
