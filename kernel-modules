@@ -1,6 +1,7 @@
 # path: /etc/modules
 
 coretemp
-i2c_dev
+nct6775
 it87
 
+i2c_dev
