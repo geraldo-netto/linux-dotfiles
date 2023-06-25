@@ -2731,6 +2731,7 @@ qtspeech5-flite-plugin:amd64			install
 qtspeech5-speechd-plugin:amd64			install
 qttranslations5-l10n				install
 qtwayland5:amd64				install
+radeontop						install
 rdate						install
 read-edid					install
 readline-common					install
