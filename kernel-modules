@@ -8,12 +8,7 @@ industrialio
 
 coretemp
 pmbus_core
-peci_cpu
-occ_hwmon_common
-nct6775_core
-ltc2947_core
+drivetemp
 
 nct6775
 it87
-jc42
-at24
