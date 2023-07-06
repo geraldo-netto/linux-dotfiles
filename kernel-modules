@@ -1,7 +1,15 @@
 # path: /etc/modules
 i2c_dev
+i2c_smbus
+industrialio
 
 coretemp
+pmbus_core
+peci_cpu
+occ_hwmon_common
+nct6775_core
+
+ltc2947_core
 nct6775
 it87
 jc42
