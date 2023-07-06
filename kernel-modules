@@ -1,4 +1,7 @@
 # path: /etc/modules
+# dimm temperature: https://www.reddit.com/r/linux/comments/nevbsq/how_to_read_dimm_temperature_on_linux/
+#   sudo -v; find /usr/lib/modules/$(uname -r)/kernel/drivers/hwmon -type f | while read file; do file=${file##*/}; file=${file%*.ko*}; sudo modprobe -v $file; done
+
 i2c_dev
 i2c_smbus
 industrialio
