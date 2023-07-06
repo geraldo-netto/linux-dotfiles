@@ -1,7 +1,7 @@
 # path: /etc/modules
+i2c_dev
 
 coretemp
 nct6775
 it87
-
-i2c_dev
+jc42
