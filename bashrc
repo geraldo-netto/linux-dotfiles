@@ -8,3 +8,4 @@ export MAKEFLAGS=-j$(($(nproc)-1))
 export PATH=/home/a_user/apps/bin:$PATH
 export mesa_glthread=true
 
+alias audio-restart='pulseaudio -k && sudo alsa force-reload'
