@@ -1,6 +1,12 @@
 # path: /etc/modules
 # dimm temperature: https://www.reddit.com/r/linux/comments/nevbsq/how_to_read_dimm_temperature_on_linux/
 #    sudo -v; find /usr/lib/modules/$(uname -r)/kernel/drivers/hwmon -type f | while read file; do file=${file##*/}; file=${file%*.ko*}; sudo modprobe -v $file; date > /home/netto/"$file".txt; sensors >> /home/netto/"$file".txt; done 
+#
+# i2cdetect -l
+# echo jc42 0x08 > /sys/bus/i2c/devices/i2c-0/new_device
+# echo jc42 0x44 > /sys/bus/i2c/devices/i2c-0/new_device 
+# echo jc42 0x69 > /sys/bus/i2c/devices/i2c-0/new_device 
+# echo jc42 0x6f > /sys/bus/i2c/devices/i2c-0/new_device 
 
 nct6775
 i2c-i801
