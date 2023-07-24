@@ -2,6 +2,11 @@
 # dimm temperature: https://www.reddit.com/r/linux/comments/nevbsq/how_to_read_dimm_temperature_on_linux/
 #    sudo -v; find /usr/lib/modules/$(uname -r)/kernel/drivers/hwmon -type f | while read file; do file=${file##*/}; file=${file%*.ko*}; sudo modprobe -v $file; date > /home/netto/"$file".txt; sensors >> /home/netto/"$file".txt; done 
 
+nct6775
+i2c-i801
+it87
+jc42
+
 i2c_dev
 i2c_smbus
 industrialio
@@ -9,7 +14,3 @@ industrialio
 coretemp
 pmbus_core
 drivetemp
-
-nct6775
-it87
-jc42
