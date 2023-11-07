@@ -8,6 +8,8 @@
 # echo jc42 0x69 > /sys/bus/i2c/devices/i2c-0/new_device 
 # echo jc42 0x6f > /sys/bus/i2c/devices/i2c-0/new_device 
 
+# insmod e1000.ko InterruptThrottleRate=0
+
 nct6775
 i2c-i801
 it87
